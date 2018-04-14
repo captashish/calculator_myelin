@@ -42,7 +42,7 @@ float performCalc(int for_choice)
         break;
         case 4: ret_result=c1.divide();
         break;
-        default: cout<<"\nWrong option entered :\n";
+        default: cout<<"\nWrong option entered.\n";
         exit(0);
     }
     return ret_result;
